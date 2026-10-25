@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Assessment I – Bahasa Markup | UAG – ESQ Business School</title>
+</head>
+<body>
+
+    <header>
+        <h1>Profil Pembuat & Buku Tamu</h1>
+        <p>Halaman Informasi Pembuat Website dan Formulir Feedback</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a> | 
+        <a href="Profil.html">Profil & Buku Tamu</a> | 
+        <a href="#buku-tamu">Formulir Buku Tamu</a>
+    </nav>
+
+    <hr>
+
+    <main>
+            <h2>Biodata Pembuat Website</h2>
+    <article>
+        <section>
+            <img src="profil.jpg" alt="Foto Fatih" width="150">
+            <br><br>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <tr>
+                    <td><strong>Nama</strong></td>
+                    <td>Fatih El Rayyan</td>
+                </tr>
+                <tr>
+                    <td><strong>NIM</strong></td>
+                    <td>2510120005</td>
+                </tr>
+                <tr>
+                    <td><strong>TTL</strong></td>
+                    <td>Gunung Kidul, 26 April 2006</td>
+                </tr>
+                <tr>
+                    <td><strong>Alamat</strong></td>
+                    <td>Perum Grand Putra Mandiri blok i-6</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h1>Riwayat Pendidikan</h1>
+            <ol>
+                <li>SD: MIN Al-Azhar Asy-Syarif</li>
+                <li>SMP: Pondok Modern Darussalam Gontor</li>
+                <li>SMA: Pondok Modern Darussalam Gontor</li>
+            </ol>
+        </section>
+
+        <section id="buku-tamu">
+            <h2>Formulir Buku Tamu</h2>
+            
+            <form action="#" method="post">
+                <p>
+                    <label for="nama">Nama Lengkap:</label><br>
+                    <input type="text" id="nama" name="nama" required>
+                </p>
+
+                <p>
+                    <label for="email">Alamat Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label>Jenis Kelamin:</label><br>
+                    <input type="radio" id="lk" name="jk" value="Laki-laki" required>
+                    <label for="lk">Laki-laki</label>
+                    <input type="radio" id="pr" name="jk" value="Perempuan">
+                    <label for="pr">Perempuan</label>
+                </p>
+
+                <p>
+                    <label>Minat Olahraga:</label><br>
+                    <input type="checkbox" id="m1" name="minat[]" value="Lari">
+                    <label for="m1">Lari</label>
+                    <input type="checkbox" id="m2" name="minat[]" value="Sepeda">
+                    <label for="m2">Sepeda</label>
+                    <input type="checkbox" id="m3" name="minat[]" value="Renang">
+                    <label for="m3">Renang</label>
+                    <input type="checkbox" id="m4" name="minat[]" value="Lainnya">
+                    <label for="m4">Lainnya</label>
+                </p>
+
+                <p>
+                    <label for="penilaian">Penilaian Website:</label><br>
+                    <select id="penilaian" name="penilaian" required>
+                        <option value="">-- Pilih Penilaian --</option>
+                        <option value="Sangat Baik">Sangat Baik</option>
+                        <option value="Baik">Baik</option>
+                        <option value="Cukup">Cukup</option>
+                        <option value="Kurang">Kurang</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="pesan">Pesan / Saran:</label><br>
+                    <textarea id="pesan" name="pesan" rows="4" cols="40" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Kirim</button>
+                    <button type="reset">Reset</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Assessment I - Bahasa Markup. All Rights Reserved.</p>
+        <p>Media Sosial UAG & ESQ Business School:</p>
+        <p>
+            <a href="https://www.instagram.com/esqbusinessschool/" target="_blank" rel="noopener">Instagram</a> |
+            <a href="https://www.facebook.com/ESQBusinessSchool/" target="_blank" rel="noopener">Facebook</a> |
+            <a href="https://www.youtube.com/@ESQBusinessSchool" target="_blank" rel="noopener">YouTube</a> |
+            <a href="https://www.linkedin.com/school/esq-business-school/" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+    </footer>
+
+</body>
+</html>
+         
